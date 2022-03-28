@@ -1,10 +1,11 @@
 {
   "name": "@api-monorepo/fetchpokeapi-package",
-  "version": "1.1.0",
+  "version": "1.1.5",
   "main": "dist/index.js",
   "license": "MIT",
   "private": false,
   "publicConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "1421ee1ce35ad17b2a14f166531539880211868e"
 }

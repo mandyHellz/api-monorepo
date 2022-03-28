@@ -6,7 +6,7 @@ type FetchingProps = {
   pokename: string;
 };
 
-const FetchApi: React.FC<FetchingProps> = ({ pokename }) => {
+export const FetchApi: React.FC<FetchingProps> = ({ pokename }) => {
   const [pokemon, setPokemon] = React.useState({
     id: "",
     name: "",
@@ -21,6 +21,7 @@ const FetchApi: React.FC<FetchingProps> = ({ pokename }) => {
       `https://pokeapi.co/api/v2/pokemon/${pokename}`
     );
     setPokemon(data);
+    console.log(setPokemon);
     e.preventDefault();
   };
 
@@ -44,4 +45,4 @@ const FetchApi: React.FC<FetchingProps> = ({ pokename }) => {
     </>
   );
 };
-export default FetchApi;
+// export default FetchApi;

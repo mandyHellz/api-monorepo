@@ -116,6 +116,7 @@ var FetchApi = function (_a) {
                 case 1:
                     data = (_a.sent()).data;
                     setPokemon(data);
+                    console.log(setPokemon);
                     e.preventDefault();
                     return [2 /*return*/];
             }
@@ -125,6 +126,7 @@ var FetchApi = function (_a) {
         React__namespace.createElement("button", { onClick: handleFetching }, "Fetch Poke Api"),
         pokemon === null || undefined ? ("loading...") : (React__namespace.createElement(PokeData, { key: pokemon.id, pokeName: pokemon.name, abilities: pokemon.abilities, image: pokemon.sprites.front_default, weight: pokemon.weight, types: pokemon.types, marginBottom: 10 }))));
 };
+// export default FetchApi;
 
-exports["default"] = FetchApi;
+exports.FetchApi = FetchApi;
 //# sourceMappingURL=index.js.map
