@@ -3,7 +3,7 @@ import typescript from "rollup-plugin-typescript2";
 import pkg from "./package.json";
 
 export default {
-    input: "packages/fetchpokeapi-package/src/index.tsx",
+    input: "packages/**",
     output: [
         {
             file: pkg.main,

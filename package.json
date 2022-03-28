@@ -3,7 +3,7 @@
   "version": "1.0.7",
   "main": "dist/index.js",
   "license": "MIT",
-  "private": false,
+  "private": true,
   "workspaces": [
     "packages/*"
   ],
@@ -15,6 +15,7 @@
     "@types/react": "^17.0.43",
     "@types/react-dom": "^17.0.14",
     "lerna": "^4.0.0",
+    "prettier": "^2.0.5",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "rollup": "^2.70.1",
