@@ -1,0 +1,10 @@
+{
+  "name": "@api-monorepo/fetchpokeapi-package",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "private": true,
+  "publicConfig": {
+    "access": "public"
+  }
+}
